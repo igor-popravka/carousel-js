@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel JS</title>
+
+    <link href="src/carousel.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="src/carousel.js"></script>
+</head>
+<body>
+
+<div style="margin: 50px 50px">
+    <div id="carousel">
+        <div class="crl-data"><img src="img/img-1.jpg"></div>
+        <div class="crl-data"><img src="img/img-2.jpg"></div>
+        <div class="crl-data"><img src="img/img-3.jpg"></div>
+        <div class="crl-data"><img src="img/img-4.jpg"></div>
+    </div>
+</div>
+
+
+<script>
+    $("#carousel").makeCarousel();
+</script>
+</body>
+</html>

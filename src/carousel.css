@@ -1,0 +1,66 @@
+.crl-container {
+    width: 650px;
+}
+
+.crl-container div.crl-data-screen {
+    display: inline-block;
+    height: 392px;
+    border: solid 1px;
+}
+
+.crl-container div.crl-data {
+    display: inline;
+    margin-right: 10px;
+}
+
+.crl-container div.crl-data.active > img {
+    border: 1px solid crimson;
+}
+
+.crl-container div.crl-data img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.crl-container div.crl-source {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.crl-container div.crl-data img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.crl-container div.crl-data-prev {
+    display: inline-block;
+    width: 50px;
+    height: 392px;
+    margin: 0 5px 0 5px;
+    background: transparent;
+    background-image: url("../img/left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.crl-container div.crl-data-next {
+    float: right;
+    display: inline-block;
+    width: 50px;
+    height: 392px;
+    margin: 0 5px 0 5px;
+    background: transparent;
+    background-image: url("../img/right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.crl-container div.crl-data-show {
+    display: inline-block;
+    height: 392px;
+    width: 520px;
+}
